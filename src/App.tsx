@@ -12,15 +12,9 @@ const Grid = styled.div`
   align-items: center;
   justify-items: center;
 
-  @media (max-width: 812px) {
-    max-width: 100vw;
+  @media (max-width: 900px) {
+    width: 90%;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
-  }
-
-  @media (max-width: 1024px) {
-    max-width: 100vw;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
   }
 `;
