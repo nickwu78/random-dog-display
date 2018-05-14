@@ -1,5 +1,14 @@
-body {
+html {
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: sans-serif;
+  background-color: #ffd54f;
+}
+
+body {
+  height: 100%;
+  width: 90%;
 }
